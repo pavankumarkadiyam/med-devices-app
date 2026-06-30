@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>valid_zip</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX(ZIP__c, &quot;^\\d{5}(-\\d{4})?$&quot;))</errorConditionFormula>
+    <errorDisplayField>ZIP__c</errorDisplayField>
+    <errorMessage>Zip should be in ZZZZZ-ZZZZ format</errorMessage>
+</ValidationRule>
