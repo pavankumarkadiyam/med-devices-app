@@ -22,9 +22,9 @@
 - Duplicate prevention rules (email + hospital name matching).
 
 **Tasks:**
-- [ ] Create Lead record type: `Medical_Device_Lead`
-- [ ] Configure Lead fields: `Hospital_Name__c`, `Hospital_Address__c`, `Hospital_Network__c` (lookup), `NPI_Number__c`, `Lead_Source_Detail__c`, `Marketing_Event__c`
-- [ ] Set up Web-to-Lead with reCAPTCHA
+- [ ] Create Lead record type: `Medical_Device_Lead`  Completed
+- [ ] Configure Lead fields: `Hospital_Name__c`, `Hospital_Address__c`, `Hospital_Network__c` (lookup), `NPI_Number__c`, `Lead_Source_Detail__c`, `Marketing_Event__c` completed
+- [ ] Set up Web-to-Lead with reCAPTCHA working
 - [ ] Configure Duplicate Rules and Matching Rules
 - [ ] Create list import template and validation rules
 - [ ] Build API-connected app for event system (if API available)
