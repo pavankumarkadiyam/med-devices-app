@@ -5,6 +5,64 @@
     <businessProcess>Medical Device Lead Process</businessProcess>
     <label>Medical Device Lead</label>
     <picklistValues>
+        <picklist>Budget_Range__c</picklist>
+        <values>
+            <fullName>%241M%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24250K %E2%80%93 %241M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2450K %E2%80%93 %24250K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under %2450K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown %2F Not Disclosed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Device_Category__c</picklist>
+        <values>
+            <fullName>Consumables %2F Disposables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diagnostic Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imaging Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infusion Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Monitoring Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service %2F Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgical Devices</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>GenderIdentity</picklist>
         <values>
             <fullName>Female</fullName>

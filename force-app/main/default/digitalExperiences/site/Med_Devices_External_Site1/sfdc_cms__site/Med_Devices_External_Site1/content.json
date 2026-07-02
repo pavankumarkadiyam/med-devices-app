@@ -1,0 +1,9 @@
+{
+  "type" : "sfdc_cms__site",
+  "title" : "Med Devices External Site",
+  "contentBody" : {
+    "authenticationType" : "AUTHENTICATED",
+    "geoBotsAllowed" : false
+  },
+  "urlName" : "med-devices-external-site"
+}
